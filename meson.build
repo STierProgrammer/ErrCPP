@@ -4,6 +4,6 @@ src = [
 ]
 
 executable('ErrCPP', 
-  [src, 'src/main.cc'], 
+  [src, 'src/main.cpp'], 
   include_directories: 'include',
 )
